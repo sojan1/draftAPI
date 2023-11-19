@@ -13,9 +13,7 @@ namespace draftAPI.Model
         public string ContentTitle { get; set; }
         public string ContentData { get; set; }
         public string ContentType { get; set; }
-        public DateOnly ContentCreatedDate { get; set; }
         public string ContentCreatedBy { get; set; }
-        public DateOnly ContentLastUpdatedDate { get; set; }
         public string ContentLastUpdatedBy { get; set; }
         public Guid WorkId { get; set; }
     }
